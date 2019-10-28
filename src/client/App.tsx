@@ -12,14 +12,14 @@ class App extends React.Component<IAppProps, IAppState> {
         return (
 
             <Router>
+                {/* <main className="container mt-5 pt-3"> */}
                 <Navbar />
-                <main className="container mt-5 pt-3">
                     <Switch>
                         <Route exact path="/" component={Home} />
                         <Route exact path="/work" component={Work} />
                         <Route exact path="/about" component={About} />
                     </Switch>
-                </main>
+                {/* </main> */}
             </Router>
         )
     }
