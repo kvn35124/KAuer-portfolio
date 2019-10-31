@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import Home from './Pages/Home';
+import Experience from './Pages/Experience';
 import Work from './Pages/Work';
-import About from './Pages/About';
+import Home from './Pages/Home';
 import Navbar from './Component/Navbar';
 
 class App extends React.Component<IAppProps, IAppState> {
@@ -17,7 +17,7 @@ class App extends React.Component<IAppProps, IAppState> {
                     <Switch>
                         <Route exact path="/" component={Home} />
                         <Route exact path="/work" component={Work} />
-                        <Route exact path="/about" component={About} />
+                        <Route exact path="/experience" component={Experience} />
                     </Switch>
                 {/* </main> */}
             </Router>
