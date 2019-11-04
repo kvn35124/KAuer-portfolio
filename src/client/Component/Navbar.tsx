@@ -12,9 +12,9 @@ const Navbar: React.FC<INavbarProps> = () => {
 
     return (
         <nav className="navbar fixed-bottom bg-dark">
-            <NavLink exact to="/" className="nav-item nav-link" activeClassName="nav-item nav-link active font-bold border-bottom">{glyphicon.Home}</NavLink>
+            <NavLink exact to="/" className="nav-item nav-link" activeClassName="nav-item nav-link active font-bold border-bottom">Home</NavLink>
             <NavLink exact to="/experience" className="nav-item nav-link" activeClassName="nav-item nav-link active font-bold border-bottom">Experience</NavLink>
-            <NavLink exact to="/work" className="nav-item nav-link" activeClassName="nav-item nav-link active font-bold border-bottom">{glyphicon.Work}</NavLink>
+            <NavLink exact to="/work" className="nav-item nav-link" activeClassName="nav-item nav-link active font-bold border-bottom">Projects</NavLink>
         </nav>
     )
 };

@@ -28,14 +28,53 @@ class Experience extends React.Component<IExperienceProps, IExperienceState> {
                             <li className="nav-item">
                                 <a className="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">University of Alabama at Birmingham</a>
                             </li>
-                            <li className="nav-item">
-                                <a className="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
-                            </li>
                         </ul>
                         <div className="tab-content" id="myTabContent">
-                            <div className="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
-                            <div className="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
-                            <div className="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+                            <div className="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                <div className="card m-2">
+                                    <div className="card-body shadow">
+                                        <h2 className="card-title">Covalence</h2>
+                                        <h4>Full Time Web Development Certification</h4>
+                                        <p>Birmingham, AL (July 2019 - October 2019)</p>
+                                        <ul>
+                                            <li>Completed Covalence full time software engineering bootcamp in Birmingham, AL.</li>
+                                        </ul>
+                                        <div className="d-flex justify-content-around">
+                                            <div className="card-deck col-8 d-flex justify-content-between">
+                                                <div className="card" >
+                                                    <ul className="list-group list-group-flush">
+                                                        <li className="list-group-item bg-dark text-primary">Front-end </li>
+                                                        <li className="list-group-item">Cras justo odio</li>
+                                                        <li className="list-group-item">Dapibus ac facilisis in</li>
+                                                        <li className="list-group-item">Vestibulum at eros</li>
+                                                    </ul>
+                                                </div>
+                                                <div className="card" >
+                                                    <ul className="list-group list-group-flush">
+                                                        <li className="list-group-item bg-dark text-primary">Back-end </li>
+                                                        <li className="list-group-item">Cras justo odio</li>
+                                                        <li className="list-group-item">Dapibus ac facilisis in</li>
+                                                        <li className="list-group-item">Vestibulum at eros</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                <div className="card m-2">
+                                    <div className="card-body shadow">
+                                        <h2 className="card-title">University of Alabama at Birmingham</h2>
+                                        <h4>Bachelor of Science in Biomedical Science, Master of Science in Biotechnology</h4>
+                                        <p>Birmingham, AL (2013 - 2018)</p>
+                                        <ul>
+                                            <li>I was introduced into working with a team in the Biomedical Science program at UAB where I learned communication is crucial for effective team workflow.</li>
+                                            <li>While working on school projects in the Biotechnology program, I learned how crucial it was for the team to meet all deadlines.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </article>
                 </section>
