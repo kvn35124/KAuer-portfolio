@@ -31,7 +31,7 @@ class Experience extends React.Component<IExperienceProps, IExperienceState> {
                         </ul>
                         <div className="tab-content" id="myTabContent">
                             <div className="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                <div className="card m-2">
+                                <div className="card mt-2 mb-5">
                                     <div className="card-body shadow">
                                         <h2 className="card-title">Covalence</h2>
                                         <h4>Full Time Web Development Certification</h4>
@@ -44,17 +44,22 @@ class Experience extends React.Component<IExperienceProps, IExperienceState> {
                                                 <div className="card" >
                                                     <ul className="list-group list-group-flush">
                                                         <li className="list-group-item bg-dark text-primary">Front-end </li>
-                                                        <li className="list-group-item">Cras justo odio</li>
-                                                        <li className="list-group-item">Dapibus ac facilisis in</li>
-                                                        <li className="list-group-item">Vestibulum at eros</li>
+                                                        <li className="list-group-item">HTML</li>
+                                                        <li className="list-group-item">CSS</li>
+                                                        <li className="list-group-item">Bootstrap</li>
+                                                        <li className="list-group-item">JavaScript</li>
+                                                        <li className="list-group-item">JQuery</li>
+                                                        <li className="list-group-item">React</li>
+                                                        <li className="list-group-item">Typescript</li>
                                                     </ul>
                                                 </div>
                                                 <div className="card" >
                                                     <ul className="list-group list-group-flush">
                                                         <li className="list-group-item bg-dark text-primary">Back-end </li>
-                                                        <li className="list-group-item">Cras justo odio</li>
-                                                        <li className="list-group-item">Dapibus ac facilisis in</li>
-                                                        <li className="list-group-item">Vestibulum at eros</li>
+                                                        <li className="list-group-item">Node.JS</li>
+                                                        <li className="list-group-item">Express.JS</li>
+                                                        <li className="list-group-item">Passport.JS</li>
+                                                        <li className="list-group-item">MySQL</li>
                                                     </ul>
                                                 </div>
                                             </div>

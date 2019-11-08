@@ -11,7 +11,7 @@ class Home extends React.Component<IHomeProps, IHomeState> {
                         <div>
                             <h1 className="display-4 font-weight-bolder">Kevin Auer</h1>
                             <p className="lead">Software Engineer</p>
-                            <p>Birmingham,AL</p>
+                            <p>Birmingham, AL</p>
                             <hr />
                         </div>
                         <div className="card shadow justify-content-center mb-5">
