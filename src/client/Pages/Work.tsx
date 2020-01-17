@@ -1,5 +1,5 @@
 import * as React from 'react';
-import eventsImage from './events.png';
+// import Events from '../events.png'
 
 
 class Work extends React.Component<IWorkProps, IWorkState> {
@@ -19,11 +19,10 @@ class Work extends React.Component<IWorkProps, IWorkState> {
                                 <p className="text-center"><span className="badge badge-dark mx-1">React</span><span className="badge badge-dark mx-1">Node.JS</span><span className="badge badge-dark mx-1">Passport.JS</span><span className="badge badge-dark mx-1">MySQL</span><span className="badge badge-dark mx-1">Express.JS</span></p>
                                 <p><a href="https://github.com/kvn35124/calendar" className="badge border border-dark mx-1 text-dark">View Source Code</a><a href="https://frozen-earth-52489.herokuapp.com/" className="badge border border-dark mx-1 text-dark">View Live</a></p>
                                 <div>
-                                    //I cannot get these images to work.
-                                    <img src={require('./events.png')} alt=""/>
-                                    <img src={eventsImage} alt=""/>
-                                    <img src="KAuer-portfolio/register.png" alt=""/>
-                                    <img src="KAuer-portfolio/admin.png" alt=""/>
+                                    <img src="images/register.png" alt="" />
+                                    <img src="images/login.png" alt="" />
+                                    <img src="images/admin.png" alt="" />
+                                    <img src='images/events.png' alt="" />
                                 </div>
                             </div>
                         </div>
