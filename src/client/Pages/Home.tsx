@@ -6,7 +6,10 @@ class Home extends React.Component<IHomeProps, IHomeState> {
     render() {
         return (
             <>
-                <main className="row">
+                <div >
+                    <h5>....</h5>
+                </div>
+                <main className="row mt-5">
                     <section className="col-6 ml-4">
                         <div>
                             <h1 className="display-4 font-weight-bolder">Kevin Auer</h1>
@@ -47,7 +50,7 @@ class Home extends React.Component<IHomeProps, IHomeState> {
                                 <p className="card-text">-PassportJS</p>
                                 <p className="card-text">-React Native</p>
                                 <p className="card-text">
-                                    In my free time you can find me attending local tech meetups, trying a new restaurant, 
+                                    In my free time you can find me attending local tech meetups, trying a new restaurant,
                                     or exploring the outdoors with my blue heeler named Blue.
                                 </p>
                             </div>
